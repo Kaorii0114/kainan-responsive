@@ -1,0 +1,305 @@
+.header-holder{
+    width: 100%;
+    height: 25vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+}
+.header-holder .header-wrapper{
+    text-align: center;
+    font-size: 60px;
+}
+.header-holder .header-wrapper h1{
+    font-family: TheSeasons;
+    letter-spacing: 1.4px;
+}
+.contact-info-map-holder{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact-info-map-holder .contact-info-map-holder-wrapper{
+    width: 80%;
+    height: 100%;
+    display: flex;
+}
+.contact-info-map-holder-wrapper .contact-info-holder{
+    width: 55%;
+    height: 100%;
+    display: block;  
+}
+.contact-info-holder .contact-description{
+    width: 100%;
+    height: 30%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.contact-description p {
+    font-weight: 525;
+    font-family: PlayFairDisplay;
+    font-size: 25px;
+    letter-spacing: 1.1px;
+}
+.contact-info-holder .contact-info{
+    height: 65%;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+}
+.contact-info .contact-type{
+    font-family: TheSeasons;
+    font-size: 25px;
+    padding: 10px 20px;
+    
+}
+.contact-info .contact-type p{
+    padding-top: 45px;
+}
+.contact-info .contacts{
+    font-family: PlayFairDisplay;
+    font-size: 24px;
+    padding: 10px 20px;
+    margin-left: 50px;
+}
+.contact-info .contacts p{
+    padding-top: 39px;
+    color: gray;
+    font-weight: 525;
+}
+.contact-info .contacts h2{
+    font-size: 22px;
+    padding-top: 40px;
+    color: gray;
+    font-weight: 525;
+}
+.contact-info .contacts h5{
+    font-size: 23px;
+    padding-top: 45px;
+    color: gray;
+    font-weight: 525;
+}
+.contact-info-map-holder-wrapper .contact-map-holder{
+    width: 80%;
+    height: 100%;
+}
+.contact-map-holder iframe{
+    height: 94%;
+    width: 100%;
+}
+
+  /* 2xl */
+@media (max-width: 1536px) {
+    .header-holder .header-wrapper{
+        font-size: 50px;
+    }
+
+    .contact-description p {
+        font-size: 22px;
+    }
+    .contact-info .contact-type{
+        font-family: TheSeasons;
+        font-size: 22px;
+        padding: 10px 17px;
+        
+    }
+    .contact-info .contact-type p{
+        padding-top: 40px;
+    }
+    .contact-info .contacts{
+        font-family: PlayFairDisplay;
+        font-size: 20px;
+        padding: 10px 20px;
+        margin-left: 42px;
+    }
+    .contact-info .contacts p{
+        padding-top: 33px;
+        color: gray;
+        font-weight: 525;
+    }
+    .contact-info .contacts h2{
+        font-size: 20px;
+        padding-top: 40px;
+        color: gray;
+        font-weight: 525;
+    }
+    .contact-info .contacts h5{
+        font-size: 20px;
+        padding-top: 45px;
+        color: gray;
+        font-weight: 525;
+    }
+
+  }
+  
+  /* xl */
+ @media (max-width: 1280px) {
+    .header-holder .header-wrapper{
+        font-size: 40px;
+    }
+
+    .contact-description p {
+        font-size: 20px;
+    }
+    .contact-info .contact-type{
+        font-family: TheSeasons;
+        font-size: 20px;
+        padding: 10px 17px;
+        
+    }
+    .contact-info .contact-type p{
+        padding-top: 35px;
+    }
+    .contact-info .contacts{
+        font-family: PlayFairDisplay;
+        font-size: 18px;
+        padding: 10px 20px;
+        margin-left: 36px;
+    }
+    .contact-info .contacts p{
+        padding-top: 33px;
+        color: gray;
+        font-weight: 525;
+    }
+    .contact-info .contacts h2{
+        font-size: 18px;
+        padding-top: 40px;
+        
+    }
+    .contact-info .contacts h5{
+        font-size: 18px;
+        padding-top: 38px;
+    }
+  } 
+  
+  /* lg */
+ @media (max-width: 1024px) {
+    .header-holder{
+        height: 15vh;
+    }
+    .header-holder .header-wrapper{
+        text-align: center;
+        font-size: 40px;
+    }
+    .header-holder .header-wrapper h1{
+        font-family: TheSeasons;
+        letter-spacing: 1.4px;
+    }
+    .contact-info-map-holder{
+        width: 100%;
+        display: block;
+    }
+    .contact-info-map-holder .contact-info-map-holder-wrapper{
+        width: 100%;
+        display: block;
+    }
+    .contact-info-map-holder-wrapper .contact-info-holder{
+        width: 100%;
+        height: auto;
+        display: block; 
+
+    }
+    .contact-description p {
+        font-size: 20px;
+    }
+    .contact-info-holder .contact-info{
+        height: auto;
+    }
+    .contact-info .contact-type{
+        font-family: TheSeasons;
+        font-size: 18px;
+        padding: 10px 20px;
+        
+    }
+    .contact-info .contact-type p{
+        padding-top: 34px;
+    }
+    .contact-info .contacts{
+        font-family: PlayFairDisplay;
+        font-size: 18px;
+        padding: 10px 20px;
+        margin-left: 50px;
+    }
+    .contact-info .contacts p{
+        padding-top: 31px;
+        color: gray;
+        font-weight: 525;
+    }
+    .contact-info .contacts h2{
+        font-size: 18px;
+        padding-top: 40px;
+        color: gray;
+        font-weight: 525;
+    }
+    .contact-info .contacts h5{
+        font-size: 18px;
+        padding-top: 45px;
+        color: gray;
+        font-weight: 525;
+    }
+    .contact-info-map-holder-wrapper .contact-map-holder{
+        width: 100%;
+    }
+    .contact-map-holder iframe{
+        height: 94%;
+        width: 100%;
+    }
+    .container{
+       height: 97vh;
+    }
+
+  } 
+  
+  /* md */
+ @media (max-width: 768px) {
+    .header-holder{
+        height: 11vh;
+    }
+    .header-holder .header-wrapper{
+        text-align: center;
+        font-size: 30px;
+    }
+    .contact-description p {
+        font-size: 18px;
+    }
+    .contact-info .contacts{
+        font-family: PlayFairDisplay;
+        font-size: 16px;
+        padding: 10px 20px;
+        margin-left: 50px;
+    }
+    .contact-info .contacts p{
+        padding-top: 31px;
+        color: gray;
+        font-weight: 525;
+    }
+    .contact-info .contacts h2{
+        font-size: 16px;
+        padding-top: 40px;
+        color: gray;
+        font-weight: 525;
+    }
+    .contact-info .contacts h5{
+        font-size: 16px;
+        padding-top: 35px;
+        color: gray;
+        font-weight: 525;
+    }
+    .contact-map-holder iframe{
+        height: 84%;
+        width: 100%;
+    }
+  }
+  
+  /* sm */
+ @media (max-width: 640px) {
+    
+  } 
+  
+  /* xs */
+@media (max-width: 475px) {
+    
+  } 

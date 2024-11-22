@@ -1,0 +1,171 @@
+.footer{
+    width: 100%;
+    background: #333333;
+    height: 53vh;
+}
+.footer-logo{
+    display: inline-block;
+}
+.footer-container img{
+    margin: 0 100px 0 100px;
+    display: block;
+    height: 300px;
+    width: auto
+    
+}
+.footer-container .instagram-page{
+    position: relative;
+    height: 400px;
+    width: 500px;
+    margin-top: -10px;
+    margin-right: 35px;
+}
+.footer-container .instagram-page h1{
+    color: #f0f1ed;
+    font-family: GillSans;
+    font-size: 27px;
+    font-weight: 100;
+    letter-spacing: 1.6px;
+    margin-top: 50px;
+}
+
+.footer-container .contact{
+    position: relative;
+    font-family: GillSans;
+    height: 400px;
+    width: 500px;
+    margin-top: -10px;
+}
+.footer-container .contact h1{
+    color: #f0f1ed;
+    font-family: GillSans;
+    font-size: 27px;
+    font-weight: 100;
+    letter-spacing: 1.6px;
+    margin-top: 50px;
+}
+.footer-container .contact p{
+    margin-top: 40px;
+    width: 450px;
+    font-family: GillSans;
+    font-size: 26.9px;
+    letter-spacing: 1.7px;
+    text-align: center;
+    color:  #f0f1ed;
+    position: relative;
+    margin-right: auto;
+    margin-left: auto;
+}
+.footer-container .contact .icons{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    width: 400px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 50px;
+}
+.footer-container .contact .icons img{
+    width: 35px;
+    height: auto;
+    margin: 20px;
+    cursor: pointer;
+}
+.footer-container .instagram-page .ig-pics-redirect{
+    margin-top: 10px;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    margin-right: auto;
+    margin-left: auto;
+ }
+ .footer-container .instagram-page .ig-pics-redirect img{
+    width: 150px;
+    height: auto;
+    margin: 10px;
+    cursor: pointer;
+ }
+ .footer-container .instagram-page p{
+    font-family: GillSans;
+    font-size: 26px;
+    letter-spacing: 1.5px;
+    color: #f0f1ed;
+    margin-top: 23px;
+}
+.footer-container .instagram-page p a{
+    font-family: GillSans;
+    font-size: 26px;
+    letter-spacing: 1.5px;
+    color: #f0f1ed;
+}
+
+/* 2xl */
+@media (max-width: 1536px) {
+    .footer-container img{
+        height: 260px;
+    }
+    .footer-container .contact h1{
+        margin-top: 55px;
+        font-size: 24px;
+    }
+    .footer-container .contact p{
+        margin-top: 40px;
+        width: 400px;
+        font-size: 23.9px;
+    }
+    .footer-container .contact .icons{
+        width: 320px;
+        margin-top: 20px;
+    }
+    .footer-container .contact .icons img{
+        width: 31px;
+        height: auto;
+        margin: 18px;
+    }
+    .footer-container .instagram-page h1{
+        margin-top: 55px;
+        font-size: 24px;
+    }
+    .footer-container .instagram-page .ig-pics-redirect img{
+        width: 130px;
+        height: auto;
+    }
+    .footer-container .instagram-page p{
+        margin-left: 30px;
+        width: 440px;
+        font-size: 22px;
+    }
+    .footer-container .instagram-page p a{
+        font-size: 22px;
+    }
+    
+  }
+  
+  /* xl */
+ @media (max-width: 1280px) {
+    .footer{
+        width: 115%;
+        background: #333333;
+        height: 53vh;
+    }
+  } 
+  
+  /* lg */
+ @media (max-width: 1024px) {
+    
+  } 
+  
+  /* md */
+ @media (max-width: 768px) {
+    
+  } 
+  
+  /* sm */
+ @media (max-width: 640px) {
+    
+  } 
+  
+  /* xs */
+ @media (max-width: 475px) {
+    
+  } 

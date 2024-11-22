@@ -1,0 +1,88 @@
+<header class=".header container">
+    <img src="img/KAINAN_LOGO_NOBG.png">
+    <a href="index.html">HOME</a>
+    <a href="menu.html">OUR MENU</a>
+    <a href="merchandise.html">OUR MERCHANDISE</a>
+    <a href="about.html">ABOUT US</a>
+    <a href="contact.html">CONTACT US</a>
+</header>
+
+
+<div class="container">
+            <div class="header-holder">
+                <div class="header-wrapper">
+                    <h1> Contact Us</h1>
+                </div>
+            </div>
+            <div class="contact-info-map-holder">
+                <div class="contact-info-map-holder-wrapper">
+                    <div class="contact-info-holder">
+                        <div class="contact-description">
+                            <p>For reservations, please don't hesitate to reach out to us through the contact details provided below. Our team is ready to assist you and ensure your booking process is seamless and easy. </p>
+                        </div>
+                        <div class="contact-info">
+                            <div class="contact-type">
+                                <p> PHONE </p>
+                                <p> EMAIL </p>
+                                <p> ADDRESS </p>
+            
+                            </div>
+                            <div class="contacts">
+                                <p> 091169420123 </p>
+                                <h5> kainan_en_la_kanto@gmail.com </h5>
+                                <h2> Corner Street Side along Hambriento Ave. & Avaro Drive by Sangrado Vaginal, 911420, LAB D, Philippines  </h2>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="contact-map-holder">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d573.6341143157313!2d121.06160433958378!3d14.71626898546744!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397b08c3b6a5deb%3A0x7842b3ca42c5c35!2sSTI%20ACADEMIC%20CENTER!5e0!3m2!1sen!2sph!4v1732040464766!5m2!1sen!2sph" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+        <div class="contact-header">
+            <div class="contact-title">
+                <h1> CONTACT US </h1>
+            </div>
+            </div>
+            <img src="img/contact-bg-header.png" class="contact-bg">
+        </div>
+
+
+
+
+
+
+        <footer>
+            <div class="footer-container">
+                <div class="instagram-page">
+                    <h1> FOLLOW US</h1>
+                    <div class="ig-pics-redirect"> 
+                        <img src="img/beef-lumpia.png" onclick="igPost1()">
+                        <img src="img/beef-chimichichangas.png" onclick="igPost2()">
+                        <img src="img/pork-sinigang.png" onclick="igPost3()">
+                    </div>
+                    <P> For all the latest news and updates, follow us on Instagram: <a href="https://www.instagram.com/kainan_en_la_kanto/?fbclid=IwZXh0bgNhZW0CMTEAAR2ViMAD1sJm4H_ZP6yynwJCnDnlCBEW4k22c2O4pVwo2AarL4-3M7tsGug_aem_0ubQGQwAoowBTMGbfEGCIA"> @kainan_en_la_kanto </a></P>
+                </div>
+                
+                    <img src="img/kainan-black-bg.png">
+        
+                <div class="contact">
+                    <h1> CONTACT</h1>
+
+                    <p>Corner Street Side along Hambriento Ave. & Avaro Drive by Sangrado Vaginal, 911420, LAB D, Philippines</p>
+                <div class="icons">
+                    <img src="img/facebook-icon.png" onclick="redirectToFacebook()"> 
+                    <img src="img/discord-icon.png" onclick="redirectToDiscord()">
+                    <img src="img/instagram-icon.png" onclick="redirectToInstagram()">
+                    <img src="img/twitter-icon.png" onclick="redirectToDiscord()">
+                </div>
+                </div>
+            </div>
+        </footer>

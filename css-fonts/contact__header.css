@@ -1,0 +1,112 @@
+.contact-bg{
+    width: 100%;
+    height: auto;
+    position: relative;
+    z-index: -1;
+}
+.contact-header{
+    position: absolute;
+    margin-top: 280px;
+    left: 0;
+    right: 0;
+    text-align: center;
+    z-index: 1;
+}
+.contact-title{
+    font-family: TheSeasons;
+}
+.contact-title h1{
+    font-weight: 525;
+    color: #f0f1ed;
+    font-size: 10.125rem;
+}
+  /* 2xl */
+ @media (max-width: 1536px) {
+    
+    .contact-header{
+        margin-top: 200px;
+    }
+    .contact-title h1{
+        font-weight: 525;
+        color: #f0f1ed;
+        font-size: 9rem;
+    }
+  }
+ 
+  /* xl */
+ @media (max-width: 1280px) {
+    .contact-bg{
+        min-width: 1280px;
+    }
+    .contact-header{
+        margin-top: 180px;
+    }
+    .contact-title h1{
+        font-weight: 525;
+        color: #f0f1ed;
+        font-size: 6.5rem;
+    }
+  } 
+  
+  /* lg */
+@media (max-width: 1024px) {
+    .contact-bg{
+        min-width: 1024px;
+    }
+    
+    .contact-header{
+        margin-top: 135px;
+    }
+    .contact-title h1{
+        font-weight: 525;
+        color: #f0f1ed;
+        font-size: 5.8rem;
+    }
+  } 
+  
+  /* md */
+ @media (max-width: 768px) {
+
+    .contact-bg{
+        min-width: 768px;
+    }
+
+    .contact-header{
+        margin-top: 110px;
+    }
+    .contact-title h1{
+        font-weight: 525;
+        color: #f0f1ed;
+        font-size: 4.3rem;
+    }
+  }
+  
+  /* sm */
+ @media (max-width: 640px) {
+
+    .contact-bg{
+        min-width: 640px;
+    }
+
+    .contact-title h1{
+        font-weight: 525;
+        color: #f0f1ed;
+        font-size: 3.5rem;
+    }
+  } 
+  
+  /* xs */
+ @media (max-width: 475px) {
+    .contact-bg{
+        min-width: 475px;
+    }
+    
+    .contact-header{
+        margin-top: 65px;
+    }
+    .contact-title h1{
+        font-weight: 525;
+        color: #f0f1ed;
+        font-size: 2.4rem;
+    }
+  } 
